@@ -11,7 +11,7 @@ SmolLM2-1.7B-Instruct
 Model 2:
 Llama-3.1-8B-Instruct
 
-1. who created model: 
+1. who created model: Meta
 2. No of para: 3.1-8B
 3. is it generative: Text Generation
 4. what is context length: 128k
