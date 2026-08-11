@@ -1,0 +1,29 @@
+Model 1:  
+SmolLM2-1.7B-Instruct
+
+1. who created model: HuggingFaceTB team
+2. No of para: 135M, 360M, and 1.7B parameters
+3. is it generative: lang model
+4. what is context length: 8192 tokens
+5. is suitable for local execution: Yes, for 16GB cpu
+6. what hardware dose the model card recommend: CPU device
+
+Model 2:
+Llama-3.1-8B-Instruct
+
+1. who created model: 
+2. No of para: 3.1-8B
+3. is it generative: Text Generation
+4. what is context length: 128k
+5. is suitable for local execution: Yes
+6. what hardware dose the model card recommend: GPU 
+
+Model 3:
+Qwen2.5-72B
+
+1. who created model: Qwen
+2. No of para: 73B params
+3. is it generative: Text Generation
+4. what is context length: 128K 
+5. is suitable for local execution: Yes
+6. what hardware dose the model card recommend: GPU 
