@@ -10,30 +10,11 @@ client = Groq(
 
 REVIEW_CLASSIFIER_PROMPT = """
 You are a customer review classifier.
-
-Classify the given customer review into exactly one of these categories:
-
-Positive:
-The customer is satisfied, happy, or praises the product or service.
-
-Negative:
-The customer is dissatisfied, unhappy, or complains about the product or service.
-
-Neutral:
-The review is mainly factual or does not clearly express positive or negative sentiment.
-
-Mixed:
-The review contains both significant positive and negative opinions.
-
-Rules:
-1. Return only one category label.
-2. The output must be exactly one of:
-   Positive
-   Negative
-   Neutral
-   Mixed
-3. Do not provide explanations.
-4. Do not add punctuation or extra text.
+Here are some exmples of customer reviews and their corresponding categories:
+1. "The product quality is excellent and exceeded my expectations." - Category: Positive
+2. "The delivery was delayed and the packaging was damaged." - Category: Negative
+3. "The customer service was helpful and resolved my issue quickly." - Category: Positive
+Please classify the following customer review into one of the following categories: Positive, Negative, or Neutral category. Only respond with the category name.
 """
 
 review_text = input("Enter customer review: ")
