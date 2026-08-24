@@ -20,6 +20,9 @@ Please classify the following customer review into one of the following categori
 review_text = input("Enter customer review: ")
 
 chat_completion = client.chat.completions.create(
+    temperature=0.2,
+    max_tokens=100,
+    reasoning="low",
     messages=[
         {
             "role": "system",
